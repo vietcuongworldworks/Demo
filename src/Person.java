@@ -2,7 +2,7 @@ public abstract class Person {
 
     abstract int getId();
 
-    abstract void setId(int id);
+    abstract void setId(int idSet);
 
     abstract String getFullName();
 

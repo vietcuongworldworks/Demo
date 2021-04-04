@@ -70,9 +70,8 @@ public class Function {
                 System.out.print(" | Name: " + employee.getFullName());
                 System.out.print(" | Age: " + employee.getAge());
                 System.out.println(" | Address: " + employee.getAddress());
-
-                System.out.println("The end!");
             }
+            System.out.println("The end!");
         }
     }
 }

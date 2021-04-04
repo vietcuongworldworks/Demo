@@ -62,12 +62,17 @@ public class Function {
     void show() {
         System.out.println("3. Show list of employee");
 
-        for (Employee employee : employeeList) {
-            System.out.print(" -- Id: " + employee.getId());
-            System.out.print(" -- Name: " + employee.getFullName());
-            System.out.print(" -- Age: " + employee.getAge());
-            System.out.println(" -- Address: " + employee.getAddress());
+        if (employeeList.size() == 0) {
+            System.out.println("List is empty!");
+        } else {
+            for (Employee employee : employeeList) {
+                System.out.print(" -- Id: " + employee.getId());
+                System.out.print(" | Name: " + employee.getFullName());
+                System.out.print(" | Age: " + employee.getAge());
+                System.out.println(" | Address: " + employee.getAddress());
+
+                System.out.println("Done!");
+            }
         }
-        System.out.println("Done!");
     }
 }

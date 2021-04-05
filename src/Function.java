@@ -67,9 +67,9 @@ public class Function {
         } else {
             for (Employee employee : employeeList) {
                 System.out.print(" -- Id: " + employee.getId());
-                System.out.print(" | Name: " + employee.getFullName());
-                System.out.print(" | Age: " + employee.getAge());
-                System.out.println(" | Address: " + employee.getAddress());
+                System.out.print(", Name: " + employee.getFullName());
+                System.out.print(", Age: " + employee.getAge());
+                System.out.println(", Address: " + employee.getAddress());
             }
             System.out.println("The end!");
         }
